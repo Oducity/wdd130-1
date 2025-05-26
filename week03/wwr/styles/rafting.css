@@ -17,7 +17,7 @@ body {
 }
 
 header, main, footer {
-    width: 840;
+    width: 840px;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 nav, p, section, article {
-    margin: i6px;
+    margin: auto;
     padding: 8px;
 }
 
@@ -42,7 +42,7 @@ nav, p, section, article {
 article {
     background-color: var(--accent2-color);
     position: absolute;
-    top: 140px;
+    top: 110px;
     width: 100%;
 }
 
@@ -65,5 +65,5 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 110px;
 }
