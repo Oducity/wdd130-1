@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #003049;
-    --secondary-color: #fcbf49;
-    --accent1-color:#d62828;
-    --accent2-color: #eae2b7;
+    --primary-color: #0000ff;
+    --secondary-color: #ffa500;
+    --accent1-color:#000044;
+    --accent2-color: #eaeff9;
     --heading-font:"Noto Sans" Sans-serif;
     --body-font: "Roboto" Sans-serif;
 }
@@ -13,7 +13,7 @@
 }
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     border: 2px solid brown;
 
 }
@@ -31,7 +31,7 @@ header, main, footer {
     border: 2px solid grey;
     padding: 2px;
     margin-bottom: 4px;
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
 }
 
 .grid-1 img {
@@ -62,9 +62,14 @@ header, main, footer {
     border-radius: 3px;
 }
 
-h1, h2 {
+h1, {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
 }
 
 nav, p, section, article {
@@ -84,7 +89,7 @@ nav, p, section, article {
 }
 
 article {
-    background-color: var(--accent2-color);
+    background-color: var(--primary-color);
     position: absolute;
     top: 110px;
     width: 100%;
@@ -103,8 +108,8 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.6;
-    background: var(--accent2-color);
-    color: var(--primary-color);
+    background: var(--secondary-color);
+    color: var(--accent1-color);
 }
 
 .hero article img {
@@ -126,6 +131,7 @@ h1 {
     text-align: center;
     border: 2px solid gray;
     margin-bottom: 2px;
+    background-color: var(--secondary-color);
 }
 
 .history h2 {
@@ -137,6 +143,7 @@ h1 {
 
 .history p {
     text-align: left;
+    color: var(--accent1-color);
 }
 
 .adventure {
@@ -145,6 +152,7 @@ h1 {
     border: 2px solid gray;
     margin-top: 3px;
     margin-bottom: 3px;
+    background-color: var(--secondary-color);
 }
 
 .adventure h2 {
@@ -159,11 +167,15 @@ h1 {
     width: 165px;
 }
 
+.adventure figcaption {
+    color: var(--accent1-color);
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 2px solid gray;
-
+    background-color: var(--accent1-color);
 }
 
 footer p {
@@ -180,5 +192,9 @@ footer p {
 }
 
 .socialmedia img {
-    width: 4rem;
+    width: 3rem;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin: 3px;
 }
