@@ -10,8 +10,10 @@
     box-sizing: border-box;
 }
 body {
-    font-family:  sans-serif;
-    color: var(--accent2-color);
+    font-family: "Lato," sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    color: var(--accent1-color);
     border: 2px solid brown;
 
 }
