@@ -168,7 +168,7 @@ h1 {
     color: var(--accent1-color);
 }
 
-.adventure {
+.adventure, .employees {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     border: 2px solid gray;
@@ -177,7 +177,7 @@ h1 {
     background-color: var(--secondary-color);
 }
 
-.adventure h2 {
+.adventure h2, .employees h2 {
     grid-column: 1/6;
     text-align: center;
     padding-bottom: 1px;
@@ -185,12 +185,22 @@ h1 {
 
 }
 
-.adventure img {
-    width: 165px;
+.adventure img, .employees img {
+    width: 160px;
 }
 
-.adventure figcaption {
+.adventure figcaption, .employees figcaption {
     color: var(--accent1-color);
+}
+
+.employees img {
+    height: 165px;
+}
+
+.employees figure {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+
 }
 
 footer {
