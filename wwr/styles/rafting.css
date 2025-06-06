@@ -228,7 +228,7 @@ footer div {
 
 footer p a {
     color: white;
-    grid-column: 1/2;
+    text-decoration: none;
 }
 .socialmedia {
     display: grid;
@@ -246,7 +246,6 @@ footer p a {
     margin: 3px;
 }
 form {
-    min-width: 320px;
     display: grid;
     margin: 1px auto;
     border: 1px solid gray;
