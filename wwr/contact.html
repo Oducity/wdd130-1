@@ -70,13 +70,31 @@
                     <figcaption>Msc. Engr. Martins Smart.<br>Position: Senior Boat Engineer</figcaption>
                 </figure>
             </section>
-
-            <section class="feedback">
-                <form action="">
+            <form action="">
+                <Fieldset>
+                    <legend>User Informamtion</legend>
+                    <label for="fullname">Full name:</label>
+                    <input id="fullname" type="text" name="fullname" required>
                     
-                </form>
-                
-            </section>
+                    <br>
+
+                    <label for="user-email">Email address:</label>
+                    <input id="user-email" type="email" name="user-email" required>
+                </Fieldset>
+                <Fieldset>
+                    <legend>Choose the purpose of your message:</legend>
+                    <label for="general-enquiry">General Enquiry</label>
+                    <input id="general-enquiry" type="radio" name="purpose">
+                    <label for="reservation-enquiry">Reservation Question:</label>
+                    <input id="reservation-enquiry" type="radio" name="purpose">
+                    <label for="website-suggestion">Website Suggestion:</label>
+                    <input id="website-suggestion" type="radio" name="purpose">
+                    <label for="feedback">Please enter your message here:</label>
+                    <textarea id="feedback" rows="20" cols="40" placeholder="Enter your message here!" required></textarea>
+                </Fieldset>
+                <Fieldset><legend></legend></Fieldset>
+                <Fieldset><legend></legend></Fieldset>
+            </form>
         </main>
 
         <footer>
