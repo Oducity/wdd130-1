@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofia&display=swap" rel="stylesheet">
 
         <title>UNICON, Contact Us Page.</title>
     </head>
@@ -73,17 +74,17 @@
             <form action="">
                 <Fieldset class="form-grid1">
                     <legend>User Informamtion</legend><br>
-                    <label for="username">User name:</label>
-                    <input id="username" type="text" name="username" required><span>*</span><br>
+                    <label for="username">User name:<span>*</span></label>
+                    <input id="username" type="text" name="username" required><br>
                     
                     <br>
 
-                    <label for="user-email">Email address:</label>
-                    <input id="user-email" type="email" name="user-email" required><span>*</span>
+                    <label for="user-email">Email address:<span>*</span></label>
+                    <input id="user-email" type="email" name="user-email" required>
                 </Fieldset>
                 <Fieldset class="form-grid2">
                     <legend>Choose the purpose of your message:</legend>
-                    <label for="general-enquiry">General Enquiry</label>
+                    <label for="general-enquiry">General Enquiry:</label>
                     <input id="general-enquiry" type="radio" name="purpose">
                     <br>
                     <label for="reservation-enquiry">Reservation Question:</label>
@@ -91,15 +92,14 @@
                     <br>
                     <label for="website-suggestion">Website Suggestion:</label>
                     <input id="website-suggestion" type="radio" name="purpose">
-                    <br><br>
-                    <label for="feedback">Please enter your message here:</label><span>*</span>
                     <br>
+                    <label for="feedback">Please enter your message here:<span>*</span></label>
                     <textarea id="feedback" rows="5" cols="20" placeholder="Enter your message here!" required></textarea>
                 </Fieldset>
                 <label for="news-letter">Send me news letters:</label>
                 <input id="news-letter" type="checkbox" name="news-letter">
-                <input type="submit" value="Submit this information" name="submit">
-                <Fieldset><legend></legend></Fieldset>
+                <br>
+                <input type="submit" class="submit" value="Click here to submit your form" name="submit">
                 <figcaption>All required fields are marked with RED ASTERISK (<span>*</span>)</figcaption>
             </form>
         </main>

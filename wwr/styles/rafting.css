@@ -3,6 +3,7 @@
     --secondary-color: #fbeaeb;
     --accent1-color:#000044;
     --accent2-color: #eaeff9;
+    --contact-h2-color:#130505;
 }
 * {
     margin: 0;
@@ -90,6 +91,11 @@ h2 {
     font-family: "Sofia", sans-serif;
 ;
     color: var(--accent1-color);
+}
+
+.c-info h2, .employees h2 {
+    font-family: "Lato", sans-serif;
+    color: var(--contact-h2-color);
 }
 
 nav, p, section, article {
@@ -241,10 +247,27 @@ form {
     background-color: aquamarine;
 }
 
+.form-grid1, .form-grid2 {
+    display: grid;
+    background-color: lightsteelblue;
+    padding: 1px;
+    grid-gap: 5px;
+}
+
+ legend {
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
 form span {
     color: red;
 }
 
 .submit {
     color: blue;
+    background-color: var(--secondary-color);
+    padding: 2px;
+    border: 2px solid var(--accent1-color);
+    border-radius: 5px;
+    font-style: italic;
 }
