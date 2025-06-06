@@ -231,3 +231,20 @@ footer p {
     border-radius: 7px;
     margin: 3px;
 }
+form {
+    min-width: 320px;
+    display: grid;
+    margin: 1px auto;
+    border: 1px solid gray;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+form span {
+    color: red;
+}
+
+.submit {
+    color: blue;
+}

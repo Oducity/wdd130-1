@@ -71,29 +71,36 @@
                 </figure>
             </section>
             <form action="">
-                <Fieldset>
-                    <legend>User Informamtion</legend>
-                    <label for="fullname">Full name:</label>
-                    <input id="fullname" type="text" name="fullname" required>
+                <Fieldset class="form-grid1">
+                    <legend>User Informamtion</legend><br>
+                    <label for="username">User name:</label>
+                    <input id="username" type="text" name="username" required><span>*</span><br>
                     
                     <br>
 
                     <label for="user-email">Email address:</label>
-                    <input id="user-email" type="email" name="user-email" required>
+                    <input id="user-email" type="email" name="user-email" required><span>*</span>
                 </Fieldset>
-                <Fieldset>
+                <Fieldset class="form-grid2">
                     <legend>Choose the purpose of your message:</legend>
                     <label for="general-enquiry">General Enquiry</label>
                     <input id="general-enquiry" type="radio" name="purpose">
+                    <br>
                     <label for="reservation-enquiry">Reservation Question:</label>
                     <input id="reservation-enquiry" type="radio" name="purpose">
+                    <br>
                     <label for="website-suggestion">Website Suggestion:</label>
                     <input id="website-suggestion" type="radio" name="purpose">
-                    <label for="feedback">Please enter your message here:</label>
-                    <textarea id="feedback" rows="20" cols="40" placeholder="Enter your message here!" required></textarea>
+                    <br><br>
+                    <label for="feedback">Please enter your message here:</label><span>*</span>
+                    <br>
+                    <textarea id="feedback" rows="5" cols="20" placeholder="Enter your message here!" required></textarea>
                 </Fieldset>
+                <label for="news-letter">Send me news letters:</label>
+                <input id="news-letter" type="checkbox" name="news-letter">
+                <input type="submit" value="Submit this information" name="submit">
                 <Fieldset><legend></legend></Fieldset>
-                <Fieldset><legend></legend></Fieldset>
+                <figcaption>All required fields are marked with RED ASTERISK (<span>*</span>)</figcaption>
             </form>
         </main>
 
