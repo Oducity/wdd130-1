@@ -223,7 +223,7 @@ footer div {
     margin: 0 auto;
     padding-left: 1%;
     color: var(--accent2-color);
-    justify-content: last baseline;
+    justify-content: baseline;
 }
 
 footer p a {
