@@ -30,6 +30,7 @@ header, main, footer {
     justify-content: space-between;
     align-items: end;
     border: 2px solid grey;
+    border-radius: 10px;
     padding: 2px;
     margin-bottom: 4px;
     background-color: var(--primary-color);
@@ -110,6 +111,7 @@ nav, p, section, article {
 .hero {
     display: grid;
     border: 2px solid gray;
+    border-radius: 10px;
     margin-bottom: 4px;
     position: relative;
 }
@@ -126,6 +128,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
 h1 {
@@ -143,6 +146,7 @@ h1 {
 .hero article img {
     float: right;
     width: 110px;
+    border-radius: 10px;
 }
 
 .history img {
@@ -180,6 +184,7 @@ h1 {
     border: 2px solid gray;
     margin-top: 3px;
     margin-bottom: 3px;
+    border-radius: 10px;
     background-color: var(--secondary-color);
 }
 
@@ -213,6 +218,7 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1.75fr;
     border: 2px solid gray;
+    border-radius: 10px;
     background-color: var(--primary-color);
 }
 
@@ -270,10 +276,14 @@ form span {
 }
 
 .submit {
-    color: blue;
-    background-color: var(--secondary-color);
+    width: 200px;
+    height: 70px;
+    margin: 0 auto;
+    color: wheat;
+    background-color: var(--primary-color);
     padding: 2px;
-    border: 2px solid var(--accent1-color);
-    border-radius: 5px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
     font-style: italic;
+    font-weight: bolder;
 }
