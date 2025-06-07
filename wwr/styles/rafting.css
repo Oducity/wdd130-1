@@ -230,7 +230,10 @@ footer div {
     justify-content: space-around;
     margin: 0 auto;
     padding-left: 1%;
-    color: var(--accent2-color);
+}
+
+footer p {
+    color: white;
 }
 
 footer p a {
