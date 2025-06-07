@@ -163,6 +163,7 @@ h1 {
     justify-content: center;
     text-align: center;
     border: 2px solid gray;
+    border-radius: 10px;
     margin-bottom: 2px;
     background-color: var(--secondary-color);
 }
