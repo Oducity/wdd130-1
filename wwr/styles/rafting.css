@@ -293,6 +293,7 @@ form span {
     grid-column: 1/4;
 }
 
+
 .trips-link {
     grid-column: 3/4;
 }
@@ -308,4 +309,8 @@ form span {
     border-radius: 20px;
     font-style: italic;
     font-weight: bolder;
+}
+
+.home-form .submit {
+    width: 50%;
 }
