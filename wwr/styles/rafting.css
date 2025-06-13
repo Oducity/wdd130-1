@@ -311,6 +311,8 @@ form span {
     width: 50%;
 }
 
+/* trips.html styling starts here */
+
 table {
     caption-side: bottom;
     padding: 10px;
@@ -341,8 +343,4 @@ caption {
      font-weight: bold;
     font-style: italic;
     padding-bottom: 10px;
-}
-.trips-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 }
