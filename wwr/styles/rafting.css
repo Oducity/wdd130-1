@@ -314,3 +314,35 @@ form span {
 .home-form .submit {
     width: 50%;
 }
+
+table {
+    caption-side: bottom;
+    padding: 10px;
+    border: 2px solid grey;
+    font-size: larger;
+    font-style: italic;
+    border-collapse: collapse;
+}
+
+thead, th {
+    border: 1px solid grey;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.centered {
+    text-align: center;
+}
+
+caption {
+     font-weight: bold;
+    font-style: italic;
+    padding-bottom: 10px;
+}
