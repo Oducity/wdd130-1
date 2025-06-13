@@ -286,13 +286,9 @@ form span {
     grid-template-columns: repeat(3, 1fr) ;
 }
 
-#hero {
+#hero, .news-heading {
     grid-column: 1/4;
 }
-.news-heading {
-    grid-column: 1/4;
-}
-
 
 .trips-link {
     grid-column: 3/4;
@@ -345,4 +341,8 @@ caption {
      font-weight: bold;
     font-style: italic;
     padding-bottom: 10px;
+}
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
