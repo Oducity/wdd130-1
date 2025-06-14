@@ -344,3 +344,45 @@ caption {
     font-style: italic;
     padding-bottom: 10px;
 }
+.trips-grid img {
+    align-items: center;
+}
+
+.row img {
+    max-width: 265px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.column a {
+    text-decoration: none;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.table-grid {
+    display: grid;
+    align-content: center;
+}
+
+#contact-link {
+    text-align: center;
+}
+
+.table-grid a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 5px;
+}
