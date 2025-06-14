@@ -281,17 +281,15 @@ form span {
     color: black;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-}
 
-#hero, .news-heading {
+#hero {
     grid-column: 1/4;
 }
 
 .trips-link {
-    grid-column: 3/4;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
 }
 
 .submit {
@@ -358,15 +356,30 @@ caption {
     width: 33.33%;
     padding: 10px;
 }
-
 .column a {
     text-decoration: none;
 }
 
-.row {
+.row, .home-row {
     border: 1px solid grey;
     background-color: var(--secondary-color);
     border-radius: 10px;
+}
+
+.home-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.home-column, .box-1 {
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.home-column img {
+    width: 99%;
+    margin: 2px;
 }
 
 .row h2, .row p {
@@ -409,4 +422,9 @@ caption {
     border: 2px solid grey;
     padding: 0;
     border-radius: 10px;
+}
+
+.news-heading {
+    grid-column: 1/3;
+    justify-items: center;
 }
