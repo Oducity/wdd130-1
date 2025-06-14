@@ -401,3 +401,12 @@ caption {
     border-radius: 15px;
     padding: 5px;
 }
+
+.trips-link a {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 2px solid grey;
+    padding: 0;
+    border-radius: 10px;
+}
