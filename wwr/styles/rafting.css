@@ -363,6 +363,12 @@ caption {
     text-decoration: none;
 }
 
+.row {
+    border: 1px solid grey;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
 .row::after {
     content: "";
     clear: both;
@@ -372,6 +378,9 @@ caption {
 .table-grid {
     display: grid;
     align-content: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
 }
 
 #contact-link {
