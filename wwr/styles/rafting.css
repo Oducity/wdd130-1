@@ -181,7 +181,7 @@ h1 {
     color: var(--accent1-color);
 }
 
-.adventure, .employees {
+.adventure {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     border: 2px solid gray;
@@ -191,12 +191,29 @@ h1 {
     background-color: var(--secondary-color);
 }
 
-.adventure h2, .employees h2 {
+.employees {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 2px solid gray;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+
+.adventure h2 {
     grid-column: 1/6;
     text-align: center;
     padding-bottom: 1px;
     margin-bottom: 2px;
 
+}
+
+.employees h2 {
+    grid-column: 1/5;
+    text-align: center;
+    padding-bottom: 1px;
+    margin-bottom: 2px;;
 }
 
 .adventure img, .employees img {
@@ -209,6 +226,7 @@ h1 {
 
 .employees img {
     height: 165px;
+    width:  100%;
 }
 
 .employees figure {
